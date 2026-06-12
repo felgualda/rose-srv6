@@ -130,10 +130,14 @@ class Router(BaseNode):
 
 # the add_link function creates a link and assigns the interface names
 # as node1-node2 and node2-node1
-def add_link(my_net, node1, node2):
-    my_net.addLink(node1, node2, intfName1=node1.name + '-' + node2.name,
-                   intfName2=node2.name + '-' + node1.name)
+def add_link(my_net, node1, node2, delay_val=None):
+    # Cria o link normal
+    link = my_net.addLink(node1, node2,
+                          intfName1=node1.name + '-' + node2.name,
+                          intfName2=node2.name + '-' + node1.name)
 
+    if delay_val:
+        link.custom_delay = delay_val
 
 def create_topo(my_net):
     # pylint: disable=invalid-name, too-many-locals, too-many-statements
@@ -160,7 +164,7 @@ def create_topo(my_net):
 
     add_link(my_net, h1, r1)
     add_link(my_net, r1, r2)
-    add_link(my_net, r2, r4)
+    add_link(my_net, r2, r4, '20ms')
     add_link(my_net, r1, r3)
     add_link(my_net, r3, r4)
     add_link(my_net, h2, r4)
@@ -213,6 +217,18 @@ def simple_test():
 
     net.build()
     net.start()
+
+    for link in net.links:
+        if hasattr(link, 'custom_delay'):
+            delay = link.custom_delay
+            intf1_name = link.intf1.name
+            intf2_name = link.intf2.name
+            node1 = link.intf1.node
+            node2 = link.intf2.node
+                
+            # Executa o comando direto no shell do roteador 1 e 2
+            node1.cmd('tc qdisc add dev %s root netem delay %s' % (intf1_name, delay))
+            node2.cmd('tc qdisc add dev %s root netem delay %s' % (intf2_name, delay))
 
     print("Dumping host connections")
     dumpNodeConnections(net.hosts)

@@ -1,241 +1,101 @@
-2026/06/11 23:31:28 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcff:2::1/128 on lo(0)
-2026/06/11 23:31:28 ZEBRA: rib_add_multipath: 0:fcff:2::1/128: Inserting route rn 0x559573d4f7f0, re 0x559573d4f990 (connected) existing (nil)
-2026/06/11 23:31:28 ZEBRA: rib_add_multipath: 0:fcff:2::1/128 (MRIB): Inserting route rn 0x559573d50a80, re 0x559573d50a20 (connected) existing (nil)
-2026/06/11 23:31:28 ZEBRA: 0:fcff:2::1/128: Adding route rn 0x559573d4f7f0, re 0x559573d4f990 (connected)
-2026/06/11 23:31:28 ZEBRA: 0:fcff:2::1/128: Adding route rn 0x559573d50a80, re 0x559573d50a20 (connected)
-2026/06/11 23:31:28 ZEBRA: 0:fcff:2::1/128 update_from_ctx(): no fib nhg
-2026/06/11 23:31:28 ZEBRA: 0:fcff:2::1/128 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:28 ZEBRA: 0:fcff:2::1/128: Redist update re 0x559573d4f990 (connected), old 0x0 (None)
-2026/06/11 23:31:29 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fe80::e826:46ff:fe5b:e474/64 on r2-r1(0)
-2026/06/11 23:31:29 ZEBRA: rib_add_multipath: 0:fe80::/64: Inserting route rn 0x559573d4c5e0, re 0x559573d4eb20 (connected) existing (nil)
-2026/06/11 23:31:29 ZEBRA: rib_add_multipath: 0:fe80::/64 (MRIB): Inserting route rn 0x559573d4c870, re 0x559573d4c790 (connected) existing (nil)
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64: Adding route rn 0x559573d4c5e0, re 0x559573d4eb20 (connected)
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64: Adding route rn 0x559573d4c870, re 0x559573d4c790 (connected)
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64: Redist update re 0x559573d4eb20 (connected), old 0x0 (None)
-2026/06/11 23:31:29 ZEBRA: Redist update filter prefix fe80::/64
-2026/06/11 23:31:29 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fe80::6405:96ff:fe94:b743/64 on r2-r4(0)
-2026/06/11 23:31:29 ZEBRA: rib_add_multipath: 0:fe80::/64: Inserting route rn 0x559573d4c5e0, re 0x559573d4c6a0 (connected) existing (nil)
-2026/06/11 23:31:29 ZEBRA: rib_add_multipath: 0:fe80::/64 (MRIB): Inserting route rn 0x559573d4c870, re 0x559573d4cf20 (connected) existing (nil)
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64: Adding route rn 0x559573d4c870, re 0x559573d4c790 (connected)
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64 update_from_ctx(): changed false, adding new fib nhg
-2026/06/11 23:31:29 ZEBRA: 0:fe80::/64: Redist update re 0x559573d4c6a0 (connected), old 0x0 (None)
-2026/06/11 23:31:29 ZEBRA: Redist update filter prefix fe80::/64
-2026/06/11 23:31:29 ZEBRA: client 22 says hello and bids fair to announce only isis routes vrf=0
-2026/06/11 23:31:29 ZEBRA: bfd_client_register msg from client isis: length=4
-2026/06/11 23:31:30 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:1:2::2/64 on r2-r1(0)
-2026/06/11 23:31:30 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64: Inserting route rn 0x559573de2910, re 0x559573de2680 (connected) existing (nil)
-2026/06/11 23:31:30 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64 (MRIB): Inserting route rn 0x559573de2b30, re 0x559573de2a30 (connected) existing (nil)
-2026/06/11 23:31:30 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:2:4::1/64 on r2-r4(0)
-2026/06/11 23:31:30 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64: Inserting route rn 0x559573de2ee0, re 0x559573de2c50 (connected) existing (nil)
-2026/06/11 23:31:30 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64 (MRIB): Inserting route rn 0x559573de3170, re 0x559573de3070 (connected) existing (nil)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x559573de2910, re 0x559573de2680 (connected)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x559573de2b30, re 0x559573de2a30 (connected)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x559573de2ee0, re 0x559573de2c50 (connected)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x559573de3170, re 0x559573de3070 (connected)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:1:2::/64: Redist update re 0x559573de2680 (connected), old 0x0 (None)
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:30 ZEBRA: 0:fcf0:0:2:4::/64: Redist update re 0x559573de2c50 (connected), old 0x0 (None)
-2026/06/11 23:31:58 ZEBRA: rib_add_multipath: 0:fcf0:0:1:3::/64: Inserting route rn 0x559573de3300, re 0x559573de2d50 (isis) existing (nil)
-2026/06/11 23:31:58 ZEBRA: rib_add_multipath: 0:fcff:1::1/128: Inserting route rn 0x559573de2dd0, re 0x559573de33e0 (isis) existing (nil)
-2026/06/11 23:31:58 ZEBRA: rib_add_multipath: 0:fcff:2:c::/64: Inserting route rn 0x559573de3580, re 0x559573de34a0 (isis) existing (nil)
-2026/06/11 23:31:58 ZEBRA: rib_add_multipath: 0:fd00:0:1::/64: Inserting route rn 0x559573de3800, re 0x559573de3660 (isis) existing (nil)
-2026/06/11 23:31:58 ZEBRA: 0:fcf0:0:1:3::/64: Adding route rn 0x559573de3300, re 0x559573de2d50 (isis)
-2026/06/11 23:31:58 ZEBRA: 0:fcff:1::1/128: Adding route rn 0x559573de2dd0, re 0x559573de33e0 (isis)
-2026/06/11 23:31:58 ZEBRA: 0:fcff:2:c::/64: Adding route rn 0x559573de3580, re 0x559573de34a0 (isis)
-2026/06/11 23:31:58 ZEBRA: 0:fd00:0:1::/64: Adding route rn 0x559573de3800, re 0x559573de3660 (isis)
-2026/06/11 23:31:58 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:58 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:31:58 ZEBRA: 0:fcf0:0:1:3::/64: Redist update re 0x559573de2d50 (isis), old 0x0 (None)
-2026/06/11 23:31:58 ZEBRA: 0:fcff:1::1/128 update_from_ctx(): no fib nhg
-2026/06/11 23:31:58 ZEBRA: 0:fcff:1::1/128 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:58 ZEBRA: 0:fcff:1::1/128: Redist update re 0x559573de33e0 (isis), old 0x0 (None)
-2026/06/11 23:31:58 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:58 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:58 ZEBRA: 0:fcff:2:c::/64: Redist update re 0x559573de34a0 (isis), old 0x0 (None)
-2026/06/11 23:31:58 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:31:58 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:31:58 ZEBRA: 0:fd00:0:1::/64: Redist update re 0x559573de3660 (isis), old 0x0 (None)
-2026/06/11 23:32:00 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x559573de4680, re 0x559573de2780 (isis) existing (nil)
-2026/06/11 23:32:00 ZEBRA: rib_add_multipath: 0:fcff:3::1/128: Inserting route rn 0x559573de3990, re 0x559573de3bd0 (isis) existing (nil)
-2026/06/11 23:32:00 ZEBRA: 0:fcf0:0:3:4::/64: Adding route rn 0x559573de4680, re 0x559573de2780 (isis)
-2026/06/11 23:32:00 ZEBRA: 0:fcff:3::1/128: Adding route rn 0x559573de3990, re 0x559573de3bd0 (isis)
-2026/06/11 23:32:00 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:32:00 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:32:00 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x559573de2780 (isis), old 0x0 (None)
-2026/06/11 23:32:00 ZEBRA: 0:fcff:3::1/128 update_from_ctx(): no fib nhg
-2026/06/11 23:32:00 ZEBRA: 0:fcff:3::1/128 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:32:00 ZEBRA: 0:fcff:3::1/128: Redist update re 0x559573de3bd0 (isis), old 0x0 (None)
-2026/06/11 23:32:02 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x559573de4680, re 0x559573de3b10 (isis) existing 0x559573de2780
-2026/06/11 23:32:02 ZEBRA: rib_delnode: 0:fcf0:0:3:4::/64: rn 0x559573de4680, re 0x559573de2780, removing
-2026/06/11 23:32:02 ZEBRA: rib_add_multipath: 0:fcff:3::1/128: Inserting route rn 0x559573de3990, re 0x559573de3d70 (isis) existing 0x559573de3bd0
-2026/06/11 23:32:02 ZEBRA: rib_delnode: 0:fcff:3::1/128: rn 0x559573de3990, re 0x559573de3bd0, removing
-2026/06/11 23:32:02 ZEBRA: rib_add_multipath: 0:fcff:4::1/128: Inserting route rn 0x559573de3c90, re 0x559573de4b00 (isis) existing (nil)
-2026/06/11 23:32:02 ZEBRA: rib_add_multipath: 0:fd00:0:2::/64: Inserting route rn 0x559573de4ce0, re 0x559573de4be0 (isis) existing (nil)
-2026/06/11 23:32:02 ZEBRA: 0:fcf0:0:3:4::/64: Updating route rn 0x559573de4680, re 0x559573de3b10 (isis) old 0x559573de2780 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fcf0:0:3:4::/64: Redist del: re 0x559573de2780 (isis), new re 0x559573de3b10 (isis)
-2026/06/11 23:32:02 ZEBRA: rib_process: 0:fcf0:0:3:4::/64: rn 0x559573de4680, removing re 0x559573de2780
-2026/06/11 23:32:02 ZEBRA: rib_unlink: 0:fcf0:0:3:4::/64: rn 0x559573de4680, re 0x559573de2780
-2026/06/11 23:32:02 ZEBRA: 0:fcff:3::1/128: Updating route rn 0x559573de3990, re 0x559573de3d70 (isis) old 0x559573de3bd0 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fcff:3::1/128: Redist del: re 0x559573de3bd0 (isis), new re 0x559573de3d70 (isis)
-2026/06/11 23:32:02 ZEBRA: rib_process: 0:fcff:3::1/128: rn 0x559573de3990, removing re 0x559573de3bd0
-2026/06/11 23:32:02 ZEBRA: rib_unlink: 0:fcff:3::1/128: rn 0x559573de3990, re 0x559573de3bd0
-2026/06/11 23:32:02 ZEBRA: 0:fcff:4::1/128: Adding route rn 0x559573de3c90, re 0x559573de4b00 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fd00:0:2::/64: Adding route rn 0x559573de4ce0, re 0x559573de4be0 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:32:02 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:32:02 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x559573de3b10 (isis), old 0x559573de3b10 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fcff:3::1/128 update_from_ctx(): no fib nhg
-2026/06/11 23:32:02 ZEBRA: 0:fcff:3::1/128 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:32:02 ZEBRA: 0:fcff:3::1/128: Redist update re 0x559573de3d70 (isis), old 0x559573de3d70 (isis)
-2026/06/11 23:32:02 ZEBRA: 0:fcff:4::1/128 update_from_ctx(): no fib nhg
-2026/06/11 23:32:02 ZEBRA: 0:fcff:4::1/128 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:32:02 ZEBRA: 0:fcff:4::1/128: Redist update re 0x559573de4b00 (isis), old 0x0 (None)
-2026/06/11 23:32:02 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:32:02 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:32:02 ZEBRA: 0:fd00:0:2::/64: Redist update re 0x559573de4be0 (isis), old 0x0 (None)
-2026/06/11 23:42:09 ZEBRA: rib_delnode: 0:fd00:0:2::/64: rn 0x559573de4ce0, re 0x559573de4be0, removing
-2026/06/11 23:42:09 ZEBRA: 0:fd00:0:2::/64: Deleting route rn 0x559573de4ce0, re 0x559573de4be0 (isis)
-2026/06/11 23:42:09 ZEBRA: 0:fd00:0:2::/64: Redist del: re 0x559573de4be0 (isis), new re 0x0 (None)
-2026/06/11 23:42:09 ZEBRA: rib_process: 0:fd00:0:2::/64: rn 0x559573de4ce0, removing re 0x559573de4be0
-2026/06/11 23:42:09 ZEBRA: rib_unlink: 0:fd00:0:2::/64: rn 0x559573de4ce0, re 0x559573de4be0
-2026/06/11 23:42:09 ZEBRA: rib_gc_dest: 0:fd00:0:2::/64: removing dest from table
-2026/06/11 23:42:10 ZEBRA: rib_delnode: 0:fd00:0:1::/64: rn 0x559573de3800, re 0x559573de3660, removing
-2026/06/11 23:42:10 ZEBRA: 0:fd00:0:1::/64: Deleting route rn 0x559573de3800, re 0x559573de3660 (isis)
-2026/06/11 23:42:10 ZEBRA: 0:fd00:0:1::/64: Redist del: re 0x559573de3660 (isis), new re 0x0 (None)
-2026/06/11 23:42:10 ZEBRA: rib_process: 0:fd00:0:1::/64: rn 0x559573de3800, removing re 0x559573de3660
-2026/06/11 23:42:10 ZEBRA: rib_unlink: 0:fd00:0:1::/64: rn 0x559573de3800, re 0x559573de3660
-2026/06/11 23:42:10 ZEBRA: rib_gc_dest: 0:fd00:0:1::/64: removing dest from table
-2026/06/11 23:47:15 ZEBRA: rib_sweep_table: dumping RE entry 0x564e179ea130 for fe80::/64 vrf 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: uptime == 14836, type == 2, instance == 0, table == 254
-2026/06/11 23:47:15 ZEBRA: fe80::/64: metric == 0, mtu == 0, distance == 0, flags == 0, status == 2
-2026/06/11 23:47:15 ZEBRA: fe80::/64: nexthop_num == 1, nexthop_active_num == 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: NH r2-r1[2] vrf default(0) with flags 
-2026/06/11 23:47:15 ZEBRA: fe80::/64: dump complete
-2026/06/11 23:47:15 ZEBRA: rib_sweep_table: dumping RE entry 0x564e179ea130 for fe80::/64 vrf 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: uptime == 14836, type == 2, instance == 0, table == 254
-2026/06/11 23:47:15 ZEBRA: fe80::/64: metric == 0, mtu == 0, distance == 0, flags == 0, status == 2
-2026/06/11 23:47:15 ZEBRA: fe80::/64: nexthop_num == 1, nexthop_active_num == 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: NH r2-r1[2] vrf default(0) with flags 
-2026/06/11 23:47:15 ZEBRA: fe80::/64: dump complete
-2026/06/11 23:47:15 ZEBRA: rib_sweep_table: dumping RE entry 0x564e179ea590 for fe80::/64 vrf 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: uptime == 14836, type == 2, instance == 0, table == 254
-2026/06/11 23:47:15 ZEBRA: fe80::/64: metric == 0, mtu == 0, distance == 0, flags == 0, status == 2
-2026/06/11 23:47:15 ZEBRA: fe80::/64: nexthop_num == 1, nexthop_active_num == 0
-2026/06/11 23:47:15 ZEBRA: fe80::/64: NH r2-r1[2] vrf default(0) with flags 
-2026/06/11 23:47:15 ZEBRA: fe80::/64: dump complete
-2026/06/11 23:47:15 ZEBRA: 0:fe80::/64: Adding route rn 0x564e179ea350, re 0x564e179ea130 (connected)
-2026/06/11 23:47:15 ZEBRA: 0:fe80::/64: Adding route rn 0x564e179ea670, re 0x564e179ea590 (connected)
-2026/06/11 23:47:15 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcff:2::1/32 on lo(0)
-2026/06/11 23:47:15 ZEBRA: rib_add_multipath: 0:fcff:2::/32: Inserting route rn 0x564e17b61dc0, re 0x564e179ea210 (connected) existing (nil)
-2026/06/11 23:47:15 ZEBRA: rib_add_multipath: 0:fcff:2::/32 (MRIB): Inserting route rn 0x564e17b61f80, re 0x564e17b61ea0 (connected) existing (nil)
-2026/06/11 23:47:15 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:15 ZEBRA: 0:fe80::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:15 ZEBRA: 0:fe80::/64: Redist update re 0x564e179ea130 (connected), old 0x0 (None)
-2026/06/11 23:47:15 ZEBRA: Redist update filter prefix fe80::/64
-2026/06/11 23:47:15 ZEBRA: 0:fcff:2::/32: Adding route rn 0x564e17b61dc0, re 0x564e179ea210 (connected)
-2026/06/11 23:47:15 ZEBRA: 0:fcff:2::/32: Adding route rn 0x564e17b61f80, re 0x564e17b61ea0 (connected)
-2026/06/11 23:47:15 ZEBRA: 0:fcff:2::/32 update_from_ctx(): no fib nhg
-2026/06/11 23:47:15 ZEBRA: 0:fcff:2::/32 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:15 ZEBRA: 0:fcff:2::/32: Redist update re 0x564e179ea210 (connected), old 0x0 (None)
-2026/06/11 23:47:16 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fe80::e049:a6ff:feb2:a4fe/64 on r2-r4(0)
-2026/06/11 23:47:16 ZEBRA: rib_add_multipath: 0:fe80::/64: Inserting route rn 0x564e179ea350, re 0x564e17b61d60 (connected) existing (nil)
-2026/06/11 23:47:16 ZEBRA: rib_add_multipath: 0:fe80::/64 (MRIB): Inserting route rn 0x564e179ea670, re 0x564e17b64fd0 (connected) existing (nil)
-2026/06/11 23:47:16 ZEBRA: 0:fe80::/64: Adding route rn 0x564e179ea670, re 0x564e179ea590 (connected)
-2026/06/11 23:47:16 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:16 ZEBRA: 0:fe80::/64 update_from_ctx(): changed false, adding new fib nhg
-2026/06/11 23:47:16 ZEBRA: 0:fe80::/64: Redist update re 0x564e17b61d60 (connected), old 0x0 (None)
-2026/06/11 23:47:16 ZEBRA: Redist update filter prefix fe80::/64
-2026/06/11 23:47:16 ZEBRA: client 22 says hello and bids fair to announce only isis routes vrf=0
-2026/06/11 23:47:16 ZEBRA: bfd_client_register msg from client isis: length=4
-2026/06/11 23:47:17 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:1:2::2/64 on r2-r1(0)
-2026/06/11 23:47:17 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64: Inserting route rn 0x564e17bf79e0, re 0x564e17bf7750 (connected) existing (nil)
-2026/06/11 23:47:17 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64 (MRIB): Inserting route rn 0x564e17bf7c00, re 0x564e17bf7b00 (connected) existing (nil)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x564e17bf79e0, re 0x564e17bf7750 (connected)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x564e17bf7c00, re 0x564e17bf7b00 (connected)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:1:2::/64: Redist update re 0x564e17bf7750 (connected), old 0x0 (None)
-2026/06/11 23:47:17 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:2:4::1/64 on r2-r4(0)
-2026/06/11 23:47:17 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64: Inserting route rn 0x564e17bf7de0, re 0x564e17bf7850 (connected) existing (nil)
-2026/06/11 23:47:17 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64 (MRIB): Inserting route rn 0x564e17bf8070, re 0x564e17bf7f70 (connected) existing (nil)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x564e17bf7de0, re 0x564e17bf7850 (connected)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x564e17bf8070, re 0x564e17bf7f70 (connected)
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:17 ZEBRA: 0:fcf0:0:2:4::/64: Redist update re 0x564e17bf7850 (connected), old 0x0 (None)
-2026/06/11 23:47:45 ZEBRA: rib_add_multipath: 0:fcf0:0:1:3::/64: Inserting route rn 0x564e17bf89e0, re 0x564e17bf7950 (isis) existing (nil)
-2026/06/11 23:47:45 ZEBRA: rib_add_multipath: 0:fcff:1::/32: Inserting route rn 0x564e17bf8380, re 0x564e17bf8320 (isis) existing (nil)
-2026/06/11 23:47:45 ZEBRA: rib_add_multipath: 0:fcff:2:c::/64: Inserting route rn 0x564e17bf84e0, re 0x564e17bf8460 (isis) existing (nil)
-2026/06/11 23:47:45 ZEBRA: rib_add_multipath: 0:fd00:0:1::/64: Inserting route rn 0x564e17bf86c0, re 0x564e17bf85c0 (isis) existing (nil)
-2026/06/11 23:47:45 ZEBRA: 0:fcf0:0:1:3::/64: Adding route rn 0x564e17bf89e0, re 0x564e17bf7950 (isis)
-2026/06/11 23:47:45 ZEBRA: 0:fcff:1::/32: Adding route rn 0x564e17bf8380, re 0x564e17bf8320 (isis)
-2026/06/11 23:47:45 ZEBRA: 0:fcff:2:c::/64: Adding route rn 0x564e17bf84e0, re 0x564e17bf8460 (isis)
-2026/06/11 23:47:45 ZEBRA: 0:fd00:0:1::/64: Adding route rn 0x564e17bf86c0, re 0x564e17bf85c0 (isis)
-2026/06/11 23:47:45 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:45 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:47:45 ZEBRA: 0:fcf0:0:1:3::/64: Redist update re 0x564e17bf7950 (isis), old 0x0 (None)
-2026/06/11 23:47:45 ZEBRA: 0:fcff:1::/32 update_from_ctx(): no fib nhg
-2026/06/11 23:47:45 ZEBRA: 0:fcff:1::/32 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:45 ZEBRA: 0:fcff:1::/32: Redist update re 0x564e17bf8320 (isis), old 0x0 (None)
-2026/06/11 23:47:45 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:45 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:45 ZEBRA: 0:fcff:2:c::/64: Redist update re 0x564e17bf8460 (isis), old 0x0 (None)
-2026/06/11 23:47:45 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:45 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:45 ZEBRA: 0:fd00:0:1::/64: Redist update re 0x564e17bf85c0 (isis), old 0x0 (None)
-2026/06/11 23:47:47 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x564e17bf91e0, re 0x564e17bf8260 (isis) existing (nil)
-2026/06/11 23:47:47 ZEBRA: rib_add_multipath: 0:fcff:3::/32: Inserting route rn 0x564e17bf87a0, re 0x564e17bf93d0 (isis) existing (nil)
-2026/06/11 23:47:47 ZEBRA: 0:fcf0:0:3:4::/64: Adding route rn 0x564e17bf91e0, re 0x564e17bf8260 (isis)
-2026/06/11 23:47:47 ZEBRA: 0:fcff:3::/32: Adding route rn 0x564e17bf87a0, re 0x564e17bf93d0 (isis)
-2026/06/11 23:47:47 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:47 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:47 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x564e17bf8260 (isis), old 0x0 (None)
-2026/06/11 23:47:47 ZEBRA: 0:fcff:3::/32 update_from_ctx(): no fib nhg
-2026/06/11 23:47:47 ZEBRA: 0:fcff:3::/32 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:47 ZEBRA: 0:fcff:3::/32: Redist update re 0x564e17bf93d0 (isis), old 0x0 (None)
-2026/06/11 23:47:48 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x564e17bf91e0, re 0x564e17bf9260 (isis) existing 0x564e17bf8260
-2026/06/11 23:47:48 ZEBRA: rib_delnode: 0:fcf0:0:3:4::/64: rn 0x564e17bf91e0, re 0x564e17bf8260, removing
-2026/06/11 23:47:48 ZEBRA: rib_add_multipath: 0:fcff:3::/32: Inserting route rn 0x564e17bf87a0, re 0x564e17bf9570 (isis) existing 0x564e17bf93d0
-2026/06/11 23:47:48 ZEBRA: rib_delnode: 0:fcff:3::/32: rn 0x564e17bf87a0, re 0x564e17bf93d0, removing
-2026/06/11 23:47:48 ZEBRA: rib_add_multipath: 0:fcff:4::/32: Inserting route rn 0x564e17bf9490, re 0x564e17bf8ac0 (isis) existing (nil)
-2026/06/11 23:47:48 ZEBRA: rib_add_multipath: 0:fd00:0:2::/64: Inserting route rn 0x564e17bf8c60, re 0x564e17bf8b80 (isis) existing (nil)
-2026/06/11 23:47:48 ZEBRA: 0:fcf0:0:3:4::/64: Updating route rn 0x564e17bf91e0, re 0x564e17bf9260 (isis) old 0x564e17bf8260 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fcf0:0:3:4::/64: Redist del: re 0x564e17bf8260 (isis), new re 0x564e17bf9260 (isis)
-2026/06/11 23:47:48 ZEBRA: rib_process: 0:fcf0:0:3:4::/64: rn 0x564e17bf91e0, removing re 0x564e17bf8260
-2026/06/11 23:47:48 ZEBRA: rib_unlink: 0:fcf0:0:3:4::/64: rn 0x564e17bf91e0, re 0x564e17bf8260
-2026/06/11 23:47:48 ZEBRA: 0:fcff:3::/32: Updating route rn 0x564e17bf87a0, re 0x564e17bf9570 (isis) old 0x564e17bf93d0 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fcff:3::/32: Redist del: re 0x564e17bf93d0 (isis), new re 0x564e17bf9570 (isis)
-2026/06/11 23:47:48 ZEBRA: rib_process: 0:fcff:3::/32: rn 0x564e17bf87a0, removing re 0x564e17bf93d0
-2026/06/11 23:47:48 ZEBRA: rib_unlink: 0:fcff:3::/32: rn 0x564e17bf87a0, re 0x564e17bf93d0
-2026/06/11 23:47:48 ZEBRA: 0:fcff:4::/32: Adding route rn 0x564e17bf9490, re 0x564e17bf8ac0 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fd00:0:2::/64: Adding route rn 0x564e17bf8c60, re 0x564e17bf8b80 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:48 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:47:48 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x564e17bf9260 (isis), old 0x564e17bf9260 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fcff:3::/32 update_from_ctx(): no fib nhg
-2026/06/11 23:47:48 ZEBRA: 0:fcff:3::/32 update_from_ctx(): rib nhg matched, changed 'true'
-2026/06/11 23:47:48 ZEBRA: 0:fcff:3::/32: Redist update re 0x564e17bf9570 (isis), old 0x564e17bf9570 (isis)
-2026/06/11 23:47:48 ZEBRA: 0:fcff:4::/32 update_from_ctx(): no fib nhg
-2026/06/11 23:47:48 ZEBRA: 0:fcff:4::/32 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:48 ZEBRA: 0:fcff:4::/32: Redist update re 0x564e17bf8ac0 (isis), old 0x0 (None)
-2026/06/11 23:47:48 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): no fib nhg
-2026/06/11 23:47:48 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
-2026/06/11 23:47:48 ZEBRA: 0:fd00:0:2::/64: Redist update re 0x564e17bf8b80 (isis), old 0x0 (None)
-2026/06/11 23:49:37 ZEBRA: rib_delnode: 0:fd00:0:2::/64: rn 0x564e17bf8c60, re 0x564e17bf8b80, removing
-2026/06/11 23:49:37 ZEBRA: 0:fd00:0:2::/64: Deleting route rn 0x564e17bf8c60, re 0x564e17bf8b80 (isis)
-2026/06/11 23:49:37 ZEBRA: 0:fd00:0:2::/64: Redist del: re 0x564e17bf8b80 (isis), new re 0x0 (None)
-2026/06/11 23:49:37 ZEBRA: rib_process: 0:fd00:0:2::/64: rn 0x564e17bf8c60, removing re 0x564e17bf8b80
-2026/06/11 23:49:37 ZEBRA: rib_unlink: 0:fd00:0:2::/64: rn 0x564e17bf8c60, re 0x564e17bf8b80
-2026/06/11 23:49:37 ZEBRA: rib_gc_dest: 0:fd00:0:2::/64: removing dest from table
-2026/06/11 23:49:38 ZEBRA: rib_delnode: 0:fd00:0:1::/64: rn 0x564e17bf86c0, re 0x564e17bf85c0, removing
-2026/06/11 23:49:38 ZEBRA: 0:fd00:0:1::/64: Deleting route rn 0x564e17bf86c0, re 0x564e17bf85c0 (isis)
-2026/06/11 23:49:38 ZEBRA: 0:fd00:0:1::/64: Redist del: re 0x564e17bf85c0 (isis), new re 0x0 (None)
-2026/06/11 23:49:38 ZEBRA: rib_process: 0:fd00:0:1::/64: rn 0x564e17bf86c0, removing re 0x564e17bf85c0
-2026/06/11 23:49:38 ZEBRA: rib_unlink: 0:fd00:0:1::/64: rn 0x564e17bf86c0, re 0x564e17bf85c0
-2026/06/11 23:49:38 ZEBRA: rib_gc_dest: 0:fd00:0:1::/64: removing dest from table
+2026/06/12 04:35:31 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcff:2::1/32 on lo(0)
+2026/06/12 04:35:31 ZEBRA: rib_add_multipath: 0:fcff:2::/32: Inserting route rn 0x5652b8383a10, re 0x5652b8382530 (connected) existing (nil)
+2026/06/12 04:35:31 ZEBRA: rib_add_multipath: 0:fcff:2::/32 (MRIB): Inserting route rn 0x5652b8384a20, re 0x5652b8384940 (connected) existing (nil)
+2026/06/12 04:35:31 ZEBRA: 0:fcff:2::/32: Adding route rn 0x5652b8383a10, re 0x5652b8382530 (connected)
+2026/06/12 04:35:31 ZEBRA: 0:fcff:2::/32: Adding route rn 0x5652b8384a20, re 0x5652b8384940 (connected)
+2026/06/12 04:35:31 ZEBRA: 0:fcff:2::/32 update_from_ctx(): no fib nhg
+2026/06/12 04:35:31 ZEBRA: 0:fcff:2::/32 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:35:31 ZEBRA: 0:fcff:2::/32: Redist update re 0x5652b8382530 (connected), old 0x0 (None)
+2026/06/12 04:35:32 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fe80::bcc3:80ff:febb:1334/64 on r2-r1(0)
+2026/06/12 04:35:32 ZEBRA: rib_add_multipath: 0:fe80::/64: Inserting route rn 0x5652b8380850, re 0x5652b8383320 (connected) existing (nil)
+2026/06/12 04:35:32 ZEBRA: rib_add_multipath: 0:fe80::/64 (MRIB): Inserting route rn 0x5652b8380a10, re 0x5652b8380930 (connected) existing (nil)
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64: Adding route rn 0x5652b8380850, re 0x5652b8383320 (connected)
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64: Adding route rn 0x5652b8380a10, re 0x5652b8380930 (connected)
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64: Redist update re 0x5652b8383320 (connected), old 0x0 (None)
+2026/06/12 04:35:32 ZEBRA: Redist update filter prefix fe80::/64
+2026/06/12 04:35:32 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fe80::5c58:ecff:fe46:fc55/64 on r2-r4(0)
+2026/06/12 04:35:32 ZEBRA: rib_add_multipath: 0:fe80::/64: Inserting route rn 0x5652b8380850, re 0x5652b8381070 (connected) existing (nil)
+2026/06/12 04:35:32 ZEBRA: rib_add_multipath: 0:fe80::/64 (MRIB): Inserting route rn 0x5652b8380a10, re 0x5652b8381130 (connected) existing (nil)
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64: Adding route rn 0x5652b8380a10, re 0x5652b8380930 (connected)
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64 update_from_ctx(): changed false, adding new fib nhg
+2026/06/12 04:35:32 ZEBRA: 0:fe80::/64: Redist update re 0x5652b8381070 (connected), old 0x0 (None)
+2026/06/12 04:35:32 ZEBRA: Redist update filter prefix fe80::/64
+2026/06/12 04:35:32 ZEBRA: client 13 says hello and bids fair to announce only isis routes vrf=0
+2026/06/12 04:35:32 ZEBRA: bfd_client_register msg from client isis: length=4
+2026/06/12 04:35:33 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:1:2::2/64 on r2-r1(0)
+2026/06/12 04:35:33 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64: Inserting route rn 0x5652b8416a50, re 0x5652b84167c0 (connected) existing (nil)
+2026/06/12 04:35:33 ZEBRA: rib_add_multipath: 0:fcf0:0:1:2::/64 (MRIB): Inserting route rn 0x5652b8416c70, re 0x5652b8416b70 (connected) existing (nil)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x5652b8416a50, re 0x5652b84167c0 (connected)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:1:2::/64: Adding route rn 0x5652b8416c70, re 0x5652b8416b70 (connected)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:1:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:1:2::/64: Redist update re 0x5652b84167c0 (connected), old 0x0 (None)
+2026/06/12 04:35:33 ZEBRA: MESSAGE: ZEBRA_INTERFACE_ADDRESS_ADD fcf0:0:2:4::1/64 on r2-r4(0)
+2026/06/12 04:35:33 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64: Inserting route rn 0x5652b8416e50, re 0x5652b84168c0 (connected) existing (nil)
+2026/06/12 04:35:33 ZEBRA: rib_add_multipath: 0:fcf0:0:2:4::/64 (MRIB): Inserting route rn 0x5652b84170e0, re 0x5652b8416fe0 (connected) existing (nil)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x5652b8416e50, re 0x5652b84168c0 (connected)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:2:4::/64: Adding route rn 0x5652b84170e0, re 0x5652b8416fe0 (connected)
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:2:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:35:33 ZEBRA: 0:fcf0:0:2:4::/64: Redist update re 0x5652b84168c0 (connected), old 0x0 (None)
+2026/06/12 04:36:01 ZEBRA: rib_add_multipath: 0:fcf0:0:1:3::/64: Inserting route rn 0x5652b8417a50, re 0x5652b84169c0 (isis) existing (nil)
+2026/06/12 04:36:01 ZEBRA: rib_add_multipath: 0:fcff:1::/32: Inserting route rn 0x5652b84173f0, re 0x5652b8417390 (isis) existing (nil)
+2026/06/12 04:36:01 ZEBRA: rib_add_multipath: 0:fcff:2:c::/64: Inserting route rn 0x5652b8417550, re 0x5652b84174d0 (isis) existing (nil)
+2026/06/12 04:36:01 ZEBRA: rib_add_multipath: 0:fd00:0:1::/64: Inserting route rn 0x5652b8417730, re 0x5652b8417630 (isis) existing (nil)
+2026/06/12 04:36:01 ZEBRA: 0:fcf0:0:1:3::/64: Adding route rn 0x5652b8417a50, re 0x5652b84169c0 (isis)
+2026/06/12 04:36:01 ZEBRA: 0:fcff:1::/32: Adding route rn 0x5652b84173f0, re 0x5652b8417390 (isis)
+2026/06/12 04:36:01 ZEBRA: 0:fcff:2:c::/64: Adding route rn 0x5652b8417550, re 0x5652b84174d0 (isis)
+2026/06/12 04:36:01 ZEBRA: 0:fd00:0:1::/64: Adding route rn 0x5652b8417730, re 0x5652b8417630 (isis)
+2026/06/12 04:36:01 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:01 ZEBRA: 0:fcf0:0:1:3::/64 update_from_ctx(): rib nhg matched, changed 'true'
+2026/06/12 04:36:01 ZEBRA: 0:fcf0:0:1:3::/64: Redist update re 0x5652b84169c0 (isis), old 0x0 (None)
+2026/06/12 04:36:01 ZEBRA: 0:fcff:1::/32 update_from_ctx(): no fib nhg
+2026/06/12 04:36:01 ZEBRA: 0:fcff:1::/32 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:01 ZEBRA: 0:fcff:1::/32: Redist update re 0x5652b8417390 (isis), old 0x0 (None)
+2026/06/12 04:36:01 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:01 ZEBRA: 0:fcff:2:c::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:01 ZEBRA: 0:fcff:2:c::/64: Redist update re 0x5652b84174d0 (isis), old 0x0 (None)
+2026/06/12 04:36:01 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:01 ZEBRA: 0:fd00:0:1::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:01 ZEBRA: 0:fd00:0:1::/64: Redist update re 0x5652b8417630 (isis), old 0x0 (None)
+2026/06/12 04:36:03 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x5652b8418250, re 0x5652b84172d0 (isis) existing (nil)
+2026/06/12 04:36:03 ZEBRA: rib_add_multipath: 0:fcff:3::/32: Inserting route rn 0x5652b8417810, re 0x5652b8418440 (isis) existing (nil)
+2026/06/12 04:36:03 ZEBRA: 0:fcf0:0:3:4::/64: Adding route rn 0x5652b8418250, re 0x5652b84172d0 (isis)
+2026/06/12 04:36:03 ZEBRA: 0:fcff:3::/32: Adding route rn 0x5652b8417810, re 0x5652b8418440 (isis)
+2026/06/12 04:36:03 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:03 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:03 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x5652b84172d0 (isis), old 0x0 (None)
+2026/06/12 04:36:03 ZEBRA: 0:fcff:3::/32 update_from_ctx(): no fib nhg
+2026/06/12 04:36:03 ZEBRA: 0:fcff:3::/32 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:03 ZEBRA: 0:fcff:3::/32: Redist update re 0x5652b8418440 (isis), old 0x0 (None)
+2026/06/12 04:36:06 ZEBRA: rib_add_multipath: 0:fcf0:0:3:4::/64: Inserting route rn 0x5652b8418250, re 0x5652b84182d0 (isis) existing 0x5652b84172d0
+2026/06/12 04:36:06 ZEBRA: rib_delnode: 0:fcf0:0:3:4::/64: rn 0x5652b8418250, re 0x5652b84172d0, removing
+2026/06/12 04:36:06 ZEBRA: rib_add_multipath: 0:fcff:3::/32: Inserting route rn 0x5652b8417810, re 0x5652b84185e0 (isis) existing 0x5652b8418440
+2026/06/12 04:36:06 ZEBRA: rib_delnode: 0:fcff:3::/32: rn 0x5652b8417810, re 0x5652b8418440, removing
+2026/06/12 04:36:06 ZEBRA: rib_add_multipath: 0:fcff:4::/32: Inserting route rn 0x5652b8418500, re 0x5652b8417b30 (isis) existing (nil)
+2026/06/12 04:36:06 ZEBRA: rib_add_multipath: 0:fd00:0:2::/64: Inserting route rn 0x5652b8417cd0, re 0x5652b8417bf0 (isis) existing (nil)
+2026/06/12 04:36:06 ZEBRA: 0:fcf0:0:3:4::/64: Updating route rn 0x5652b8418250, re 0x5652b84182d0 (isis) old 0x5652b84172d0 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fcf0:0:3:4::/64: Redist del: re 0x5652b84172d0 (isis), new re 0x5652b84182d0 (isis)
+2026/06/12 04:36:06 ZEBRA: rib_process: 0:fcf0:0:3:4::/64: rn 0x5652b8418250, removing re 0x5652b84172d0
+2026/06/12 04:36:06 ZEBRA: rib_unlink: 0:fcf0:0:3:4::/64: rn 0x5652b8418250, re 0x5652b84172d0
+2026/06/12 04:36:06 ZEBRA: 0:fcff:3::/32: Updating route rn 0x5652b8417810, re 0x5652b84185e0 (isis) old 0x5652b8418440 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fcff:3::/32: Redist del: re 0x5652b8418440 (isis), new re 0x5652b84185e0 (isis)
+2026/06/12 04:36:06 ZEBRA: rib_process: 0:fcff:3::/32: rn 0x5652b8417810, removing re 0x5652b8418440
+2026/06/12 04:36:06 ZEBRA: rib_unlink: 0:fcff:3::/32: rn 0x5652b8417810, re 0x5652b8418440
+2026/06/12 04:36:06 ZEBRA: 0:fcff:4::/32: Adding route rn 0x5652b8418500, re 0x5652b8417b30 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fd00:0:2::/64: Adding route rn 0x5652b8417cd0, re 0x5652b8417bf0 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:06 ZEBRA: 0:fcf0:0:3:4::/64 update_from_ctx(): rib nhg matched, changed 'true'
+2026/06/12 04:36:06 ZEBRA: 0:fcf0:0:3:4::/64: Redist update re 0x5652b84182d0 (isis), old 0x5652b84182d0 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fcff:3::/32 update_from_ctx(): no fib nhg
+2026/06/12 04:36:06 ZEBRA: 0:fcff:3::/32 update_from_ctx(): rib nhg matched, changed 'true'
+2026/06/12 04:36:06 ZEBRA: 0:fcff:3::/32: Redist update re 0x5652b84185e0 (isis), old 0x5652b84185e0 (isis)
+2026/06/12 04:36:06 ZEBRA: 0:fcff:4::/32 update_from_ctx(): no fib nhg
+2026/06/12 04:36:06 ZEBRA: 0:fcff:4::/32 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:06 ZEBRA: 0:fcff:4::/32: Redist update re 0x5652b8417b30 (isis), old 0x0 (None)
+2026/06/12 04:36:06 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): no fib nhg
+2026/06/12 04:36:06 ZEBRA: 0:fd00:0:2::/64 update_from_ctx(): rib nhg matched, changed 'false'
+2026/06/12 04:36:06 ZEBRA: 0:fd00:0:2::/64: Redist update re 0x5652b8417bf0 (isis), old 0x0 (None)

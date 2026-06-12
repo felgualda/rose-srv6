@@ -1,7 +1,7 @@
 #!/bin/sh
 
 NODE_NAME=controller
-GW_NAME=r2
+GW_NAME=r1
 IF_NAME=$NODE_NAME-$GW_NAME
 IP_ADDR=fcff:2:c::2/48
 GW_ADDR=fcff:2:c::1

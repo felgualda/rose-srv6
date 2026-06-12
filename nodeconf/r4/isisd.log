@@ -1,126 +1,74 @@
-2026/06/11 23:31:32 ISIS: circuit already connected
-2026/06/11 23:31:32 ISIS: circuit already connected
-2026/06/11 23:31:32 ISIS: circuit already connected
-2026/06/11 23:31:32 ISIS: circuit already connected
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:41 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:41 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:41 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:42 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:42 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:42 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:44 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:44 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:44 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:45 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:45 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:31:45 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:51 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:51 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:51 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:51 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:31:51 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:51 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:31:52 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:52 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:53 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:53 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:58 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:58 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:59 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:31:59 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:32:00 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:32:00 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:32:02 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:32:02 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:42:09 ISIS: circuit already disconnected
-2026/06/11 23:42:09 ISIS: circuit already disconnected
-2026/06/11 23:47:18 ISIS: circuit already connected
-2026/06/11 23:47:18 ISIS: circuit already connected
-2026/06/11 23:47:18 ISIS: circuit already connected
-2026/06/11 23:47:18 ISIS: circuit already connected
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:26 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:26 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:26 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:27 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:27 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:27 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:28 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:28 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:28 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:29 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
-2026/06/11 23:47:29 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:29 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
-2026/06/11 23:47:35 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:35 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:35 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:35 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
-2026/06/11 23:47:35 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:35 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
-2026/06/11 23:47:36 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:36 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:45 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:45 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:46 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:46 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:47 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:47 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:48 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:47:48 ISIS: isis_adj_build_up_list(): adjacency DB is empty
-2026/06/11 23:49:37 ISIS: circuit already disconnected
-2026/06/11 23:49:37 ISIS: circuit already disconnected
+2026/06/12 04:35:35 ISIS: circuit already connected
+2026/06/12 04:35:35 ISIS: circuit already connected
+2026/06/12 04:35:35 ISIS: circuit already connected
+2026/06/12 04:35:35 ISIS: circuit already connected
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:47 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:47 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:47 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:48 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:48 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:48 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:49 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:49 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:49 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:50 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:50 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:50 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:56 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP 2222.2222.2222.00-00 found for IS adjacency L2 on r4-r2 (ID 2)
+2026/06/12 04:35:56 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:56 ISIS: ISIS-Spf: No LSP found for 2222.2222.2222.00
+2026/06/12 04:35:57 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:57 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:57 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:57 ISIS: ISIS-Spf: No LSP 3333.3333.3333.00-00 found for IS adjacency L2 on r4-r3 (ID 3)
+2026/06/12 04:35:57 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:57 ISIS: ISIS-Spf: No LSP found for 3333.3333.3333.00
+2026/06/12 04:35:58 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:35:58 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:01 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:01 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:02 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:02 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:03 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:03 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:03 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:03 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:04 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:04 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:06 ISIS: isis_adj_build_up_list(): adjacency DB is empty
+2026/06/12 04:36:06 ISIS: isis_adj_build_up_list(): adjacency DB is empty
